@@ -17,10 +17,8 @@ public abstract class Figures {
     }
     public abstract double perimetr();
 
-    public void plosad() {
-        System.out.println("dliny storon treygolnika "+getName() + ":");
-        Scanner scanner = new Scanner(System.in);
-        int plosad = dlynaStorony*dlynaStorony;
-    }
+    public abstract double ploshad();
+
+
 
 }

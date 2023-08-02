@@ -11,12 +11,14 @@ public class Triangle<perimetr, ploshad> extends Figures {
     public Triangle(String name) {
         super(name);
     }
-     public abstract void perimetr(){
+     public double perimetr(){
       double perimetr = a+b+c;
-    }return perimetr;
+         return perimetr;
+    }
 
-    public abstract  void ploshad(){
+    public  double ploshad() {
         double ploshad = Math.sqrt(perimetr());
-    } return ploshad;
+        return ploshad;
+    }
     }
 
