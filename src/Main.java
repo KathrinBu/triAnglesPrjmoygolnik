@@ -9,8 +9,8 @@ public class Main {
     }
 
       public static void triangle(){
-          Triangle triangle1 = new Triangle<>("First",3,4,5);
-          Triangle triangle2 = new Triangle<>("Second",7.1,8,9);
+          Triangle triangle1 = new Triangle<>("First",3,4,5, 399);
+          Triangle triangle2 = new Triangle<>("Second",7.1,8,9, 76);
           triangle1.setPrice(11);
           triangle2.getUniqueKod();
           triangle1.perimetr();
