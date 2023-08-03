@@ -19,15 +19,6 @@ public abstract class Figures {
         return uniqueKod;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String s) {
-        this.name = s;
-    }
-
-
     public abstract double perimetr();
 
     public abstract double ploshad();
